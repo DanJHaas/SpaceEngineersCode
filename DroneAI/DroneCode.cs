@@ -19,6 +19,11 @@ namespace SpaceEngineers.UWBlockPrograms.BatteryMonitor
 {
     public sealed class Program : MyGridProgram
     {
+        /*
+        TODO:
+        -   gryo calculations for turning drone proper angles
+        -   more vector math to determine what "up" means and orient ship properly
+        */
         List<IMyBroadcastListener> listeners = new List<IMyBroadcastListener>();
         List<IMyTerminalBlock> term = new List<IMyTerminalBlock>();
         List<IMyThrust> onGridThrust = new List<IMyThrust>();
