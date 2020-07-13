@@ -38,8 +38,7 @@ namespace SpaceEngineers.UWBlockPrograms.BatteryMonitor
 
         public Program()
         {
-            //testing commits
-            Runtime.UpdateFrequency = UpdateFrequency.Update10;
+            Runtime.UpdateFrequency = UpdateFrequency.Update1;
             info = GridTerminalSystem.GetBlockWithName("Lcd") as IMyTextPanel;
             brain = GridTerminalSystem.GetBlockWithName("controller") as IMyRemoteControl;
             GridTerminalSystem.GetBlocksOfType<IMyThrust>(term);
