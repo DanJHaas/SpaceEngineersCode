@@ -38,19 +38,19 @@
     <OutputPath>bin\x64\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sandbox.Common">
+    <Reference Include="Sandbox.Common, processorArchitecture=MSIL">
       <HintPath>E:\SteamGames\steamapps\common\SpaceEngineers\Bin64\Sandbox.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Sandbox.Game, processorArchitecture=AMD64">
+    <Reference Include="Sandbox.Game, processorArchitecture=MSIL">
       <HintPath>E:\SteamGames\steamapps\common\SpaceEngineers\Bin64\Sandbox.Game.dll</HintPath>
     </Reference>
-    <Reference Include="SpaceEngineers, processorArchitecture=AMD64">
+    <Reference Include="SpaceEngineers, processorArchitecture=MSIL">
       <HintPath>E:\SteamGames\steamapps\common\SpaceEngineers\Bin64\SpaceEngineers.exe</HintPath>
     </Reference>
-    <Reference Include="SpaceEngineers.Game, processorArchitecture=AMD64">
+    <Reference Include="SpaceEngineers.Game, processorArchitecture=MSIL">
       <HintPath>E:\SteamGames\steamapps\common\SpaceEngineers\Bin64\SpaceEngineers.Game.dll</HintPath>
     </Reference>
-    <Reference Include="SpaceEngineers.ObjectBuilders, processorArchitecture=AMD64">
+    <Reference Include="SpaceEngineers.ObjectBuilders, processorArchitecture=MSIL">
       <HintPath>E:\SteamGames\steamapps\common\SpaceEngineers\Bin64\SpaceEngineers.ObjectBuilders.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -64,13 +64,13 @@
     <Reference Include="VRage">
       <HintPath>E:\SteamGames\steamapps\common\SpaceEngineers\Bin64\VRage.dll</HintPath>
     </Reference>
-    <Reference Include="VRage.Game, processorArchitecture=AMD64">
+    <Reference Include="VRage.Game, processorArchitecture=MSIL">
       <HintPath>E:\SteamGames\steamapps\common\SpaceEngineers\Bin64\VRage.Game.dll</HintPath>
     </Reference>
-    <Reference Include="VRage.Library">
+    <Reference Include="VRage.Library, processorArchitecture=MSIL">
       <HintPath>E:\SteamGames\steamapps\common\SpaceEngineers\Bin64\VRage.Library.dll</HintPath>
     </Reference>
-    <Reference Include="VRage.Math">
+    <Reference Include="VRage.Math, processorArchitecture=MSIL">
       <HintPath>E:\SteamGames\steamapps\common\SpaceEngineers\Bin64\VRage.Math.dll</HintPath>
     </Reference>
   </ItemGroup>
