@@ -24,7 +24,6 @@ namespace SpaceEngineers.UWBlockPrograms.BatteryMonitor
         -   gryo calculations for turning drone proper angles
         -   more vector math to determine what "up" means and orient ship properly
         */
-        //test
         List<IMyBroadcastListener> listeners = new List<IMyBroadcastListener>();
         List<IMyTerminalBlock> term = new List<IMyTerminalBlock>();
         List<IMyThrust> onGridThrust = new List<IMyThrust>();
