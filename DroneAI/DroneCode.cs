@@ -38,7 +38,7 @@ namespace SpaceEngineers.UWBlockPrograms.BatteryMonitor
 
         public Program()
         {
-            //testing git
+            //testing git again
             Runtime.UpdateFrequency = UpdateFrequency.Update10;
             info = GridTerminalSystem.GetBlockWithName("Lcd") as IMyTextPanel;
             brain = GridTerminalSystem.GetBlockWithName("controller") as IMyRemoteControl;
